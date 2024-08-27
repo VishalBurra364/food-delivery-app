@@ -1,0 +1,40 @@
+.navbar{
+    margin:30px 30px;
+    display: flex;
+    align-items: center;
+    gap:290px;
+    padding-left: 100px;
+    
+}
+.logo{
+    border-radius: 3px;
+}
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+.menu-items li{
+    list-style: none;
+    cursor: pointer;
+    font-size: large;
+}
+.navbar-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.navbar-right button{
+    width:80px;
+    background-color: azure;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.navbar-right button:hover{
+    background-color: lightpink;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}

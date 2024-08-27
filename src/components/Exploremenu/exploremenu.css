@@ -1,0 +1,33 @@
+.menu-list{
+    margin-top: 15px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.menu-list h3{
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+}
+.menu-item-list{
+   display:flex;
+   flex-direction: row;
+   gap: 14px;
+}
+.menu-list-images p{
+ margin-left: 40px;
+}
+.menu-list hr{
+    margin: 10px 0px;
+    margin-right: 170px;
+    border: none;
+    background-color: cornsilk;
+    height: 3px;
+}
+.menu-list-images .active{
+    border:4px solid tomato;
+    padding: 2px;
+}

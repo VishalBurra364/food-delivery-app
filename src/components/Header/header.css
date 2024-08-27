@@ -1,0 +1,30 @@
+.header{
+    height: 34vw;
+    margin:10px auto;
+    background:url("../../images/main3.jpg" ) no-repeat     ;
+    background-size: contain;
+    background-position: center;
+    background-size: 1300px 600px;
+    position: relative;
+}
+.header-container{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.header-container h2{
+    font-size: 600;
+    color: black;
+}
+.header-container p{
+    font-size: 200;
+    color: aliceblue;
+}
+.header-container button{
+    width:90px;
+    border-radius: 50px;
+    padding: 3px 5px;
+}
